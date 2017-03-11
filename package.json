@@ -1,0 +1,15 @@
+{
+  "name": "gamerockscissorspaper",
+  "version": "1.0.0",
+  "description": "Rocks Scissors Paper Game",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Maya",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.1",
+    "socket.io": "^1.7.3"
+  }
+}

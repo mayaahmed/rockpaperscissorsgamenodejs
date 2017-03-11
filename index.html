@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+ <html lang="en">
+     <head>
+         <meta charset="utf-8">
+<title>Punjiri: Web and Mobile Technologies.</title>
+     <link rel="stylesheet" type="text/css"  href="rps.css">      
+<link rel="stylesheet" type="text/css"  href="punjiriIcon.css">   
+<style>
+
+
+
+</style>
+
+     </head>
+     <body>
+ 
+         <div class="wrapper">
+
+           <div id="topStuff">
+             <header id="top_header">
+           <img id="iconpic" src="punjiri.png"  height=110 width=110 alt="Logo"> 
+              <div id="titleTextdiv"> 
+                Rock-Paper-Scissors Game  
+              </div> 
+		   
+		   </header>
+
+             <div class="main">
+
+               <div id="nameDiv" class="chat-controls">
+                <h3>  Enter your name: </h3>
+                  <form id="chat-form">
+                     <input id="chat-input"/> 
+                   <p>  <button id="sendButton" >Send</button> </p>
+                 </form>
+               </div>
+
+               <div id="game-controls">
+                 <ul id="chat"></ul>
+              
+                 <div id="game-choices">
+                 <button id="rock">Rock</button>
+                 <button id="paper">Paper</button>
+                 <button id="scissors">Scissors</button>
+                 </div>
+               
+               </div>
+            
+             </div>
+         </div>
+ 
+         <script src="/socket.io/socket.io.js"></script>
+         <script src="client.js"></script>
+     </body>
+ </html> 

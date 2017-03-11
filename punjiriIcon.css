@@ -1,0 +1,30 @@
+
+.logo{
+margin-top: 0px;
+position: absolute;
+z-index: 3;
+opacity: 0.8;
+margin-left: 1%;
+}
+
+#iconpic{
+animation: bounce 1s ease-in 3;
+ // animation: bounce 1s ease-in infinite;
+}
+
+#iconpic:hover{
+ animation: bounce 1s ease-in infinite;
+}
+
+@keyframes bounce{
+  0%, 100%{
+    transform: translateY(0px);}
+  50%{
+    transform: translateY(30px);}
+}
+  
+
+
+
+
+
